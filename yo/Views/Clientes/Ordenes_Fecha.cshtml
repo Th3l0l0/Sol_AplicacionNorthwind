@@ -1,0 +1,33 @@
+﻿
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="~/scripts/ordenes_fecha.js"></script>
+</head>
+<body>
+    <h2>Ordenes Por Fecha</h2>
+    <br />
+    <p>
+        <label for="fecha">Ingrese Fecha del pedido:</label>
+        <input type="text" class="form-control" id="fecha" placeholder="DD/MM/AAAA" />
+        <input type="submit" id="consultar" value="CONSULTAR" />
+    </p>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>ID Orden</th>
+                <th>Fecha de la Orden</th>
+                <th>ID Empleado</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+        </tbody>
+    </table>
+</body>
+</html>
+
+
